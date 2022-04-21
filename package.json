@@ -1,0 +1,39 @@
+{
+  "name": "kf-admin",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "/dev",
+    "/output",
+    "/pbx.config.js"
+  ],
+  "dependencies": {
+    "element-plus": "^2.1.4",
+    "pinia": "^2.0.12",
+    "ress": "^5.0.2",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.4.4",
+    "unplugin-element-plus": "^0.3.2",
+    "vite": "^2.7.2",
+    "vite-plugin-eslint": "^1.3.0",
+    "vite-plugin-windicss": "^1.8.3",
+    "vue-tsc": "^0.29.8"
+  }
+}
